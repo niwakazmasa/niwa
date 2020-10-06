@@ -1,0 +1,140 @@
+.container {
+    width: 90%;
+    margin: 100px auto;
+}
+
+form {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.title {
+  margin-top: 5%;
+  color: #777;
+}
+
+.time-rap {
+  display: block;
+  margin: 2% 1%;
+}
+
+.space {
+  margin: 5% 0 7%;
+}
+
+.labelspace {
+  margin: 0 2%;
+  font-size: 1.3em;
+}
+
+input.geomsize {
+  width: 0.6em;
+  height: 0.6em;
+}
+
+.correct {
+  color: #e67168;
+}
+
+.incorrect {
+  color: #4682B4;
+}
+
+table {
+  width: 100%;
+}
+
+tr {
+  width: 100%;
+  margin: 10px;
+}
+tr:hover {
+    cursor: move;
+}
+
+td {
+  display: block;
+}
+
+.cent {
+  width: 30%;
+  margin: 1% auto 3%;
+}
+
+textarea {
+  display: inline-block;
+  width: 100%;
+  margin: 0.5%;
+}
+
+input[type="text"] {
+  display: inline-block;
+  width: 40%;
+  font-size: 15px;
+  margin: 5px;
+  padding: 5px;
+  text-transform: lowercase;
+}
+/* input[type="radio"]{
+  margin: 10px;
+} */
+/* テスト4択・8択用に編集 他ページで不具合あれば調整 */
+input[type="radio"]{
+  margin: 19px;
+}
+
+input[type=submit] {
+  display: block;
+  font-size: 16px;
+  background-color: lightseagreen;
+  color: #fff;
+  width: 30%;
+  height: 40px;
+  margin: 5% auto 3%;
+  padding: 0;
+  line-height: 2.6em;
+  text-align: center;
+  border: none;
+  border-radius: 30px;
+}
+input[type=submit]:link,input[type=submit]:visited,input[type=submit]:hover {
+  background-color: #228896;
+  color: #fff;
+}
+input[type=submit]:active {
+  background-color: #228896;
+  color: #eee;
+  box-shadow: 2px 2px 4px #002 inset;
+}
+
+.remove {
+  /* float: right; */
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  background-color: tomato;
+  color: white;
+  border: none;
+  border-radius: 15px;
+}
+
+.remove-center {
+  text-align: center;
+}
+
+#addTest1, #addTest2, #addChoice2, #addChoice4, #addChoice8, #addText, #getValues {
+  width: 19%;
+  height: 40px;
+  font-size: 16px;
+  background-color: lightseagreen;
+  color: white;
+  border: none;
+  margin: 20px;
+}
+
+button {
+  margin: 2% 0 4% 0;
+}
+button:hover {
+    cursor: pointer;
+}

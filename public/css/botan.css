@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+.radio {
+  display: inline-block;
+  list-style: none;
+}
+
+.test-btn {
+  text-align: center;
+}
